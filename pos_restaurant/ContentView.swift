@@ -15,7 +15,7 @@ struct ContentView: View {
     var body: some View {
         ZStack {
             // Background color
-            Color.cyan
+            Color.white
                 .edgesIgnoringSafeArea(.all)
             
             VStack {
@@ -24,22 +24,30 @@ struct ContentView: View {
                 Image("logo")
                     .resizable()
                     .scaledToFit()
-                    .frame(width: 150, height: 150)
-                    .padding(.bottom, 50)
+                    .frame(width: 310, height: 240)
+                    .padding(.bottom, 10)
                 
                 TextField("Username", text: $username)
-                    .padding()
-                    .background(Color.white)
-                    .cornerRadius(5.0)
-                    .padding(.bottom, 20)
-                    .autocapitalization(.none)
-                    .disableAutocorrection(true)
+                                   .padding()
+                                   .background(Color.white)
+                                   .cornerRadius(5.0)
+                                   .overlay(
+                                       RoundedRectangle(cornerRadius: 5.0)
+                                           .stroke(Color.blue, lineWidth: 2.0)
+                                   )
+                                   .padding(.bottom, 20)
+                                   .autocapitalization(.none)
+                                   .disableAutocorrection(true)
                 
                 SecureField("Password", text: $password)
-                    .padding()
-                    .background(Color.white)
-                    .cornerRadius(5.0)
-                    .padding(.bottom, 20)
+                                    .padding()
+                                    .background(Color.white)
+                                    .cornerRadius(5.0)
+                                    .overlay(
+                                        RoundedRectangle(cornerRadius: 5.0)
+                                            .stroke(Color.blue, lineWidth: 2.0)
+                                    )
+                                    .padding(.bottom, 20)
                 
                 Button(action: {
                     // Handle login action
@@ -58,7 +66,7 @@ struct ContentView: View {
                 
                 HStack {
                     Text("Don't have an account?")
-                        .foregroundColor(.white)
+                        .foregroundColor(.black)
                     Button(action: {
                         // Handle sign up action
                     }) {
