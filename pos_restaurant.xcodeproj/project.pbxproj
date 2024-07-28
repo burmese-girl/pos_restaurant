@@ -14,7 +14,8 @@
 		5DF492E32C56485B00BD6273 /* pos_restaurantTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF492E22C56485B00BD6273 /* pos_restaurantTests.swift */; };
 		5DF492ED2C56485B00BD6273 /* pos_restaurantUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF492EC2C56485B00BD6273 /* pos_restaurantUITests.swift */; };
 		5DF492EF2C56485B00BD6273 /* pos_restaurantUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF492EE2C56485B00BD6273 /* pos_restaurantUITestsLaunchTests.swift */; };
-		5DF492FE2C565C2800BD6273 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF492FD2C565C2800BD6273 /* HomeScreen.swift */; };
+		5DF492FF2C5665F900BD6273 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF492FD2C565C2800BD6273 /* HomeScreen.swift */; };
+		5DF493012C56691000BD6273 /* Signup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF493002C56691000BD6273 /* Signup.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		5DF492EC2C56485B00BD6273 /* pos_restaurantUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pos_restaurantUITests.swift; sourceTree = "<group>"; };
 		5DF492EE2C56485B00BD6273 /* pos_restaurantUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pos_restaurantUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		5DF492FD2C565C2800BD6273 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		5DF493002C56691000BD6273 /* Signup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Signup.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 		5DF492D02C56485800BD6273 /* pos_restaurant */ = {
 			isa = PBXGroup;
 			children = (
+				5DF493002C56691000BD6273 /* Signup.swift */,
 				5DF492FD2C565C2800BD6273 /* HomeScreen.swift */,
 				5DF492D12C56485800BD6273 /* pos_restaurantApp.swift */,
 				5DF492D32C56485800BD6273 /* ContentView.swift */,
@@ -261,8 +264,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5DF492D42C56485800BD6273 /* ContentView.swift in Sources */,
+				5DF493012C56691000BD6273 /* Signup.swift in Sources */,
 				5DF492D22C56485800BD6273 /* pos_restaurantApp.swift in Sources */,
-				5DF492FE2C565C2800BD6273 /* HomeScreen.swift in Sources */,
+				5DF492FF2C5665F900BD6273 /* HomeScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
