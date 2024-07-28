@@ -16,6 +16,10 @@
 		5DF492EF2C56485B00BD6273 /* pos_restaurantUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF492EE2C56485B00BD6273 /* pos_restaurantUITestsLaunchTests.swift */; };
 		5DF492FF2C5665F900BD6273 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF492FD2C565C2800BD6273 /* HomeScreen.swift */; };
 		5DF493012C56691000BD6273 /* Signup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF493002C56691000BD6273 /* Signup.swift */; };
+		5DF493032C566D1F00BD6273 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF493022C566D1F00BD6273 /* NetworkManager.swift */; };
+		5DF493052C566D5E00BD6273 /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF493042C566D5E00BD6273 /* LoginScreen.swift */; };
+		5DF493072C56706700BD6273 /* .env.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5DF493062C56706700BD6273 /* .env.xib */; };
+		5DF493092C56717A00BD6273 /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF493082C56717A00BD6273 /* Environment.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +52,10 @@
 		5DF492EE2C56485B00BD6273 /* pos_restaurantUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pos_restaurantUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		5DF492FD2C565C2800BD6273 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
 		5DF493002C56691000BD6273 /* Signup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Signup.swift; sourceTree = "<group>"; };
+		5DF493022C566D1F00BD6273 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		5DF493042C566D5E00BD6273 /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
+		5DF493062C56706700BD6273 /* .env.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = .env.xib; sourceTree = "<group>"; };
+		5DF493082C56717A00BD6273 /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +106,10 @@
 		5DF492D02C56485800BD6273 /* pos_restaurant */ = {
 			isa = PBXGroup;
 			children = (
+				5DF493062C56706700BD6273 /* .env.xib */,
+				5DF493082C56717A00BD6273 /* Environment.swift */,
+				5DF493042C566D5E00BD6273 /* LoginScreen.swift */,
+				5DF493022C566D1F00BD6273 /* NetworkManager.swift */,
 				5DF493002C56691000BD6273 /* Signup.swift */,
 				5DF492FD2C565C2800BD6273 /* HomeScreen.swift */,
 				5DF492D12C56485800BD6273 /* pos_restaurantApp.swift */,
@@ -238,6 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5DF492D92C56485A00BD6273 /* Preview Assets.xcassets in Resources */,
+				5DF493072C56706700BD6273 /* .env.xib in Resources */,
 				5DF492D62C56485A00BD6273 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,8 +278,11 @@
 			files = (
 				5DF492D42C56485800BD6273 /* ContentView.swift in Sources */,
 				5DF493012C56691000BD6273 /* Signup.swift in Sources */,
+				5DF493032C566D1F00BD6273 /* NetworkManager.swift in Sources */,
+				5DF493092C56717A00BD6273 /* Environment.swift in Sources */,
 				5DF492D22C56485800BD6273 /* pos_restaurantApp.swift in Sources */,
 				5DF492FF2C5665F900BD6273 /* HomeScreen.swift in Sources */,
+				5DF493052C566D5E00BD6273 /* LoginScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

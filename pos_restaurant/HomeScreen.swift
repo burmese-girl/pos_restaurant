@@ -30,7 +30,7 @@ struct HomeScreen: View {
                     .padding(.bottom, 10)
                 Spacer()
                 
-                NavigationLink(destination: ContentView(), isActive: $showLogin) {
+                NavigationLink(destination: LoginScreen(), isActive: $showLogin) {
                     Button(action: {
                         self.showLogin = true
                     }) {
