@@ -24,7 +24,7 @@ struct ContentView: View {
                 Image("logo")
                     .resizable()
                     .scaledToFit()
-                    .frame(width: 310, height: 240)
+                    .frame(width: 290, height: 260)
                     .padding(.bottom, 10)
                 
                 TextField("Username", text: $username)
