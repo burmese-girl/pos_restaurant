@@ -11,7 +11,8 @@ import SwiftUI
 struct pos_restaurantApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeScreen()
+//            ContentView()
         }
     }
 }
